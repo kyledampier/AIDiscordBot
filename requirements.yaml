@@ -1,0 +1,27 @@
+name: gaitor-bot
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - pillow
+  - yaml
+  - pyyaml
+  - matplotlib
+  - jupyter
+  - notebook
+  - tensorboardx
+  - tensorboard
+  - protobuf
+  - tqdm
+  - cudatoolkit=11.6
+  - pip:
+    - torch
+    - torchvision
+    - transformers
+    - diffusers
+    - discord.py
+    - requests
+    - validators
