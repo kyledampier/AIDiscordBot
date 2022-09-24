@@ -27,7 +27,7 @@ model_id = "CompVis/stable-diffusion-v1-4"
 device = "cuda"
 
 # Stable Diffusion
-print("Loading Stable Diffusion")
+print("--- Loading Stable Diffusion ---")
 pipe = StableDiffusionPipeline.from_pretrained(model_id, use_auth_token=config['HUGGINGFACE_API_KEY'])
 pipe = pipe.to(device)
 
